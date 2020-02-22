@@ -1,0 +1,67 @@
+/* Nav bar for large screeb */
+@media(min-width: 360px) {
+    .navbar {
+
+        list-style-type: none;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(105, 98, 98);
+        height: 3em;
+    }
+
+    li {
+        float: left;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        padding: 1em;
+        text-align: center;
+
+    }
+
+    .about {
+        float: right;
+    }
+
+    li a:hover {
+        background-color: black;
+    }
+}
+
+/* For small screen */
+
+@media(max-width: 359px) {
+    .navbar {
+
+        list-style-type: none;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(105, 98, 98);
+        height: auto;
+    }
+
+    li {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
+
+    li a:hover {
+        background-color: black;
+    }
+}

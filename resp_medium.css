@@ -1,0 +1,16 @@
+@media(min-width: 361px) and (max-width: 599px) {
+    .grid-container {
+        display: grid;
+
+        height: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        /* align-content: center; */
+        gap: 5%;
+
+
+
+        margin: 2rem 1.5rem 2rem 1.5rem;
+        padding-top: 10px;
+    }
+}
