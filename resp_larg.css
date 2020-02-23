@@ -1,15 +1,21 @@
 @media(min-width: 600px) {
     .grid-container {
         display: grid;
-        /* background-color: blueviolet; */
-        height: 80%;
+        height: 90%;
         grid-template-columns: repeat(3, 1fr);
-        /* justify-content: space-between;
-        align-content: center; */
         grid-gap: 0.5rem;
-
-        border: solid 1px black;
         margin: 2rem 1.5rem 2rem 1.5rem;
-        padding-top: 5px;
+
+
+    }
+
+    .box {
+
+        margin: 1rem 1rem 1rem 1rem;
+
+    }
+
+    .title {
+        margin: 1rem 1rem 1rem 1rem;
     }
 }

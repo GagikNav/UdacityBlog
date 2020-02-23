@@ -2,18 +2,19 @@
 
     .grid-container {
         display: grid;
-        /* background-color: rgb(48, 243, 23); */
         height: 80%;
         grid-template-columns: 1fr;
-        /* justify-content: space-evenly; */
-        /* align-content: center; */
-        row-gap: 5%;
-        /* align-content: space-around; */
-
-
-
-
-        margin: 2rem 1.5rem 2rem 1.5rem;
+        grid-gap: 0.5rem;
+        margin: 1px;
         padding-top: 10px;
     }
-}
+
+    .box {
+
+        margin: 2px 2px 2px 2px;
+
+    }
+
+    .title {
+        margin: 2px 2px 2px 2px;
+    }
