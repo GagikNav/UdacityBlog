@@ -4,26 +4,22 @@
 @import "navigation.css";
 @import "resp_medium.css";
 @import "resp_larg.css";
+@import "footer.css";
 
 body {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-blend-mode: exclusion;
   background-color: rgb(233, 233, 227);
 }
 
 .title {
   display: flex;
-
   background-color: aquamarine;
   justify-content: center;
-  height: 150px;
+  height: 200px;
   align-items: center;
   background-image: url(https://images.unsplash.com/photo-1581612371919-6fce0c441190?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .box {
@@ -32,7 +28,8 @@ body {
   justify-content: start;
   align-items: flex-start;
   background-color: none;
-
+  min-height: 50px;
+  max-height: auto;
   box-shadow: 5px 5px 8px #888;
 }
 
@@ -41,8 +38,6 @@ body {
   margin-right: auto;
   margin-bottom: 1rem;
 }
-
-
 
 .box:hover {
   box-shadow: 5px 10px 8px rgb(80, 80, 80);
@@ -58,14 +53,30 @@ body {
   font-size: 1.2rem;
   height: 48px;
   overflow: hidden;
+}
+
+.box h2 {
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+  color: rgba(117, 130, 245, 0.933)
+}
+
+.box h3 {
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+  color: rgb(3, 80, 80);
 
 
 }
 
+
 .blog-title {
   display: flex;
   justify-content: center;
-
 }
 
 .cap-text {
@@ -75,36 +86,29 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 0rem;
-
+  height: 70px;
   padding: 5px;
-
+  color: rgba(15, 15, 15, 0.753);
 }
 
-.footer {
-  display: flex;
-  background-color: rgb(235, 170, 170);
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 1.5rem 2rem 1.5rem;
+.underlined {
+  text-decoration: underline;
 }
 
-.footer-links {
-  margin-right: 3rem;
+.bold {
+  font-weight: bold;
+}
 
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem;
-  font-size: 0.8rem;
+.em {
+  text-emphasis: ;
 }
 
 .button {
-  /* background-color: rgb(210, 177, 241); */
   border-radius: 6px;
   height: 35px;
 }
 
 .button:hover {
-  background-color: cadetblue;
+  background-color: rgb(224, 224, 224);
   cursor: pointer;
 }
