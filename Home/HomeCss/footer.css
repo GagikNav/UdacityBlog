@@ -3,10 +3,11 @@
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 80px 80px;
+    grid-template-rows: 45px 45px;
     background-color: rgba(194, 185, 185, 0.829);
     box-shadow: 5px 5px 8px #888;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+
 
 
 }
@@ -25,11 +26,11 @@ form {
     margin-top: 0;
     margin-left: 3rem;
     margin-bottom: 10px;
-
     margin-bottom: 0px;
     grid-column: 1;
     grid-row: 1;
     align-self: center;
+
 
 
 }
@@ -44,13 +45,20 @@ form {
     align-items: center;
 
 
+
+}
+
+.links a {
+    color: black;
 }
 
 #linksid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 30px;
-    grid-row-gap: 40px;
+    grid-row-gap: 5px;
+    font-size: 2em;
+
 
 
 

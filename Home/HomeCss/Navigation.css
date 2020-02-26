@@ -3,11 +3,12 @@
     .navbar {
 
         list-style-type: none;
-        margin: 1rem 0.5rem 1rem 0.5rem;
+        margin: 2rem 1.5rem 2rem 1.5rem;
         padding: 0;
         overflow: hidden;
         background-color: rgba(153, 153, 153, 0.212);
-        height: 3em;
+        height: 4rem;
+        font-size: 1.5em;
     }
 
     li {
@@ -19,12 +20,16 @@
         display: block;
         color: white;
         padding: 1em;
-        text-align: center;
+
+
 
     }
 
     .about {
         float: right;
+        padding-bottom: 1rem;
+        font-size: 1.em;
+
     }
 
     li a:hover {
