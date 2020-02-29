@@ -1,4 +1,8 @@
-/* Nav bar for large screen */
+/**
+ * /* Nav bar for large screen
+ *
+ * @format
+ */
 
 @media (min-width: 800px) {
   .navbar {
@@ -48,9 +52,6 @@
     font-size: 1.2em;
   }
 
-  .social {
-  }
-
   li a {
     display: block;
     color: whitesmoke;
@@ -77,9 +78,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     font-size: 1em;
-  }
-
-  .social {
   }
 
   li a {
